@@ -10,12 +10,12 @@
 *<p align="center">Your open-source personal assistant.</p>*
 
 <p align="center">
-  <a href="https://github.com/tridev-ai/tridev/blob/develop/LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-blue.svg?label=License&style=flat" /></a>
-  <a href="https://github.com/tridev-ai/tridev/blob/develop/.github/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" /></a>
+  <a href="https://github.com/Ayush10/tridev/blob/develop/LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-blue.svg?label=License&style=flat" /></a>
+  <a href="https://github.com/Ayush10/tridev/blob/develop/.github/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" /></a>
   <br>
-  <a href="https://github.com/tridev-ai/tridev/actions/workflows/build.yml"><img src="https://github.com/tridev-ai/tridev/actions/workflows/build.yml/badge.svg?branch=develop" /></a>
-  <a href="https://github.com/tridev-ai/tridev/actions/workflows/tests.yml"><img src="https://github.com/tridev-ai/tridev/actions/workflows/tests.yml/badge.svg?branch=develop" /></a>
-  <a href="https://github.com/tridev-ai/tridev/actions/workflows/lint.yml"><img src="https://github.com/tridev-ai/tridev/actions/workflows/lint.yml/badge.svg?branch=develop" /></a>
+  <a href="https://github.com/Ayush10/tridev/actions/workflows/build.yml"><img src="https://github.com/Ayush10/tridev/actions/workflows/build.yml/badge.svg?branch=develop" /></a>
+  <a href="https://github.com/Ayush10/tridev/actions/workflows/tests.yml"><img src="https://github.com/Ayush10/tridev/actions/workflows/tests.yml/badge.svg?branch=develop" /></a>
+  <a href="https://github.com/Ayush10/tridev/actions/workflows/lint.yml"><img src="https://github.com/Ayush10/tridev/actions/workflows/lint.yml/badge.svg?branch=develop" /></a>
   <br>
   <a href="https://discord.gg/MNQqqKg"><img src="https://svgshare.com/i/V09.svg"/></a>
   <a href="https://twitter.com/Ayushtiti_fr"><img src="https://img.shields.io/twitter/follow/Ayushtiti_fr?label=Follow&style=social" /></a>
@@ -25,7 +25,7 @@
   <a href="https://gettridev.ai">Website</a> ::
   <a href="https://docs.gettridev.ai">Documentation</a> ::
   <a href="http://roadmap.gettridev.ai">Roadmap</a> ::
-  <a href="https://github.com/tridev-ai/tridev/blob/develop/.github/CONTRIBUTING.md">Contributing</a> ::
+  <a href="https://github.com/Ayush10/tridev/blob/develop/.github/CONTRIBUTING.md">Contributing</a> ::
   <a href="https://blog.gettridev.ai/the-story-behind-tridev/">Story</a>
 </p>
 
@@ -67,7 +67,7 @@ If you want to, tridev can communicate with you by being **offline to protect yo
 ### What is tridev able to do?
 
 > Today, the most interesting part is about his core and the way he can scale up. He is pretty young but can easily scale to have new features (packages/modules).
-> You can find what he is able to do by browsing the [packages list](https://github.com/tridev-ai/tridev/tree/develop/packages).
+> You can find what he is able to do by browsing the [packages list](https://github.com/Ayush10/tridev/tree/develop/packages).
 
 Sounds good for you? Then let's get started!
 
@@ -75,7 +75,7 @@ Sounds good for you? Then let's get started!
 
 Gitpod will automatically setup an environment and run an instance for you.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/tridev-ai/tridev)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Ayush10/tridev)
 
 ## 🚀 Getting Started
 
@@ -93,8 +93,8 @@ To install these prerequisites, you can follow the [How To section](https://docs
 
 ```sh
 # Clone the repository (stable branch)
-git clone -b master https://github.com/tridev-ai/tridev.git tridev
-# OR download the latest release at: https://github.com/tridev-ai/tridev/releases/latest
+git clone -b master https://github.com/Ayush10/tridev.git tridev
+# OR download the latest release at: https://github.com/Ayush10/tridev/releases/latest
 
 # Go to the project root
 cd tridev
@@ -159,7 +159,7 @@ You'll find a write-up on this [blog post](https://blog.gettridev.ai/the-story-b
 - [Twitter](https://twitter.com/Ayushtiti_fr)
 - [Newsletter](http://newsletter.gettridev.ai)
 - [Blog](https://blog.gettridev.ai)
-- [GitHub issues](https://github.com/tridev-ai/tridev/issues)
+- [GitHub issues](https://github.com/Ayush10/tridev/issues)
 - [YouTube](https://www.youtube.com/channel/UCW6mk6j6nQUzFYY97r47emQ)
 - [#tridevAI](https://twitter.com/hashtag/tridevAI)
 
@@ -219,14 +219,14 @@ The focus is not only limited to the activity you see on GitHub but also a lot o
 
 ### Special Thanks
 
-<a href="https://vercel.com/?utm_source=tridev-ai&utm_campaign=oss">
+<a href="https://vercel.com/?utm_source=Ayush10&utm_campaign=oss">
   <img src="https://i.imgur.com/S5olXWh.png" alt="Vercel" width="128" />
 </a>
 
 ## 📝 License
-[MIT License](https://github.com/tridev-ai/tridev/blob/develop/LICENSE.md)
+[MIT License](https://github.com/Ayush10/tridev/blob/develop/LICENSE.md)
 
-Copyright (c) 2019-present, Ayush Grenard <Ayush.grenard@gmail.com>
+Copyright (c) 2019-present, Ayush Grenard <ayushojha010@gmail.com>
 
 ## Cheers!
 ![Cheers!](https://github.githubassets.com/images/icons/emoji/unicode/1f379.png "Cheers!")

@@ -6,7 +6,7 @@ Thanks a lot for your interest in contributing to tridev! :heart:
 
 **Before submitting your contribution**, please take a moment to review this document.
 
-Please note we have a [code of conduct](https://github.com/tridev-ai/tridev/blob/develop/.github/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+Please note we have a [code of conduct](https://github.com/Ayush10/tridev/blob/develop/.github/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
 
 ## How You Can Help
 
@@ -14,9 +14,9 @@ Here are few examples about how you could help on tridev, by:
 
 - [Creating a new module](https://docs.gettridev.ai/packages-modules).
 - [Working on new features](http://roadmap.gettridev.ai) (what is in backlog or todo).
-- [Suggesting new ideas](https://github.com/tridev-ai/tridev/issues/new/choose).
-- [Reporting a bug](https://github.com/tridev-ai/tridev/issues/new?labels=bug&template=BUG.md).
-- [Improving the documentation](https://github.com/tridev-ai/docs.gettridev.ai) (translations, typos, better writing, etc.).
+- [Suggesting new ideas](https://github.com/Ayush10/tridev/issues/new/choose).
+- [Reporting a bug](https://github.com/Ayush10/tridev/issues/new?labels=bug&template=BUG.md).
+- [Improving the documentation](https://github.com/Ayush10/docs.gettridev.ai) (translations, typos, better writing, etc.).
 - [Sponsoring tridev](http://sponsor.gettridev.ai).
 
 
@@ -24,14 +24,14 @@ Here are few examples about how you could help on tridev, by:
 
 **Working on your first Pull Request?** You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github).
 
-- **Please first discuss** the change you wish to make via [issue](https://github.com/tridev-ai/tridev/issues),
+- **Please first discuss** the change you wish to make via [issue](https://github.com/Ayush10/tridev/issues),
   email, or any other method with the owners of this repository before making a change.
   It might avoid a waste of your time.
 
 - The `master` branch is actually used as a snapshot of the latest stable release. **Do not submit your PRs
   against the `master` branch**.
 
-- Ensure your code **respect our coding standards** (cf. [.eslintrc.json](https://github.com/tridev-ai/tridev/blob/develop/.eslintrc.json)).
+- Ensure your code **respect our coding standards** (cf. [.eslintrc.json](https://github.com/Ayush10/tridev/blob/develop/.eslintrc.json)).
 To do so, you can run:
 
   ```sh
@@ -54,13 +54,13 @@ Choose the setup method you want to go for.
 
 Gitpod will automatically setup an environment and run an instance for you.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/tridev-ai/tridev)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Ayush10/tridev)
 
 ### Basic
 
 ```sh
 # Clone the repository
-git clone https://github.com/tridev-ai/tridev.git tridev
+git clone https://github.com/Ayush10/tridev.git tridev
 
 # Go to the project root
 cd tridev
@@ -82,7 +82,7 @@ npm run dev:app
 
 ```sh
 # Clone the repository
-git clone https://github.com/tridev-ai/tridev.git tridev
+git clone https://github.com/Ayush10/tridev.git tridev
 
 # Go to the project root
 cd tridev

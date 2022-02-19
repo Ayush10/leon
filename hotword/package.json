@@ -3,8 +3,8 @@
   "version": "0.2.0",
   "description": "Hotword detection for tridev",
   "author": {
-    "name": "Ayush Grenard",
-    "email": "Ayush.grenard@gmail.com",
+    "name": "Ayush Ojha",
+    "email": "ayushojha010@gmail.com",
     "url": "https://twitter.com/Ayushtiti_fr"
   },
   "main": "index.js",
@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "node-record-lpcm16": "^0.3.0",
-    "snowboy": "git+https://github.com/tridev-ai/snowboy.git",
+    "snowboy": "git+https://github.com/Ayush10/snowboy.git",
     "socket.io-client": "^4.0.0",
     "superagent": "^3.5.2"
   }

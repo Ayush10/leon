@@ -1,7 +1,7 @@
 version: '3.0'
 services:
-  tridev-ai:
-    container_name: 'tridev-ai'
+  Ayush10:
+    container_name: 'Ayush10'
     build:
       context: './'
     image: 'tridevai/tridev'

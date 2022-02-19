@@ -4,17 +4,17 @@
   "description": "Server, packages and web app of the tridev personal assistant",
   "author": {
     "name": "Ayush Grenard",
-    "email": "Ayush.grenard@gmail.com",
-    "url": "https://twitter.com/Ayushtiti_fr"
+    "email": "ayushojha010@gmail.com",
+    "url": "https://twitter.com/AyushOjha7"
   },
   "license": "MIT",
   "homepage": "https://gettridev.ai",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tridev-ai/tridev.git"
+    "url": "git+https://github.com/Ayush10/tridev.git"
   },
   "bugs": {
-    "url": "https://github.com/tridev-ai/tridev/issues"
+    "url": "https://github.com/Ayush10/tridev/issues"
   },
   "engines": {
     "node": ">=16.0.0",
