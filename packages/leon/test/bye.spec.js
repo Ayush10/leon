@@ -1,4 +1,4 @@
-describe('leon:bye', () => {
+describe('tridev:bye', () => {
   test('says bye', async () => {
     global.nlu.brain.execute = jest.fn()
     await global.nlu.process('Bye bye')

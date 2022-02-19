@@ -1,32 +1,32 @@
 <p align="center">
-  <a href="https://getleon.ai"><img width="800" src="https://getleon.ai/img/hero-animation.gif" /></a>
+  <a href="https://gettridev.ai"><img width="800" src="https://gettridev.ai/img/hero-animation.gif" /></a>
 </p>
 
 <h1 align="center">
-  <a href="https://getleon.ai"><img width="96" src="https://getleon.ai/img/logo.svg" alt="Leon"></a><br>
-  Leon
+  <a href="https://gettridev.ai"><img width="96" src="https://gettridev.ai/img/logo.svg" alt="tridev"></a><br>
+  tridev
 </h1>
 
 *<p align="center">Your open-source personal assistant.</p>*
 
 <p align="center">
-  <a href="https://github.com/leon-ai/leon/blob/develop/LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-blue.svg?label=License&style=flat" /></a>
-  <a href="https://github.com/leon-ai/leon/blob/develop/.github/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" /></a>
+  <a href="https://github.com/tridev-ai/tridev/blob/develop/LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-blue.svg?label=License&style=flat" /></a>
+  <a href="https://github.com/tridev-ai/tridev/blob/develop/.github/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" /></a>
   <br>
-  <a href="https://github.com/leon-ai/leon/actions/workflows/build.yml"><img src="https://github.com/leon-ai/leon/actions/workflows/build.yml/badge.svg?branch=develop" /></a>
-  <a href="https://github.com/leon-ai/leon/actions/workflows/tests.yml"><img src="https://github.com/leon-ai/leon/actions/workflows/tests.yml/badge.svg?branch=develop" /></a>
-  <a href="https://github.com/leon-ai/leon/actions/workflows/lint.yml"><img src="https://github.com/leon-ai/leon/actions/workflows/lint.yml/badge.svg?branch=develop" /></a>
+  <a href="https://github.com/tridev-ai/tridev/actions/workflows/build.yml"><img src="https://github.com/tridev-ai/tridev/actions/workflows/build.yml/badge.svg?branch=develop" /></a>
+  <a href="https://github.com/tridev-ai/tridev/actions/workflows/tests.yml"><img src="https://github.com/tridev-ai/tridev/actions/workflows/tests.yml/badge.svg?branch=develop" /></a>
+  <a href="https://github.com/tridev-ai/tridev/actions/workflows/lint.yml"><img src="https://github.com/tridev-ai/tridev/actions/workflows/lint.yml/badge.svg?branch=develop" /></a>
   <br>
   <a href="https://discord.gg/MNQqqKg"><img src="https://svgshare.com/i/V09.svg"/></a>
   <a href="https://twitter.com/louistiti_fr"><img src="https://img.shields.io/twitter/follow/louistiti_fr?label=Follow&style=social" /></a>
 </p>
 
 <p align="center">
-  <a href="https://getleon.ai">Website</a> ::
-  <a href="https://docs.getleon.ai">Documentation</a> ::
-  <a href="http://roadmap.getleon.ai">Roadmap</a> ::
-  <a href="https://github.com/leon-ai/leon/blob/develop/.github/CONTRIBUTING.md">Contributing</a> ::
-  <a href="https://blog.getleon.ai/the-story-behind-leon/">Story</a>
+  <a href="https://gettridev.ai">Website</a> ::
+  <a href="https://docs.gettridev.ai">Documentation</a> ::
+  <a href="http://roadmap.gettridev.ai">Roadmap</a> ::
+  <a href="https://github.com/tridev-ai/tridev/blob/develop/.github/CONTRIBUTING.md">Contributing</a> ::
+  <a href="https://blog.gettridev.ai/the-story-behind-tridev/">Story</a>
 </p>
 
 <svg width="4438" height="1000" viewBox="0 0 4438 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,37 +37,37 @@
 
 ## 👋 Introduction
 
-**Leon** is an **open-source personal assistant** who can live **on your server**.
+**tridev** is an **open-source personal assistant** who can live **on your server**.
 
 He **does stuff** when you **ask him for**.
 
 You can **talk to him** and he can **talk to you**.
 You can also **text him** and he can also **text you**.
-If you want to, Leon can communicate with you by being **offline to protect your privacy**.
+If you want to, tridev can communicate with you by being **offline to protect your privacy**.
 
 ### Why?
 
 > 1. If you are a developer (or not), you may want to build many things that could help in your daily life.
-> Instead of building a dedicated project for each of those ideas, Leon can help you with his
+> Instead of building a dedicated project for each of those ideas, tridev can help you with his
 > packages/modules (skills) structure.
 > 2. With this generic structure, everyone can create their own modules and share them with others.
 > Therefore there is only one core (to rule them all).
-> 3. Leon uses AI concepts, which is cool.
-> 4. Privacy matters, you can configure Leon to talk with him offline. You can already text with him without any third party services.
+> 3. tridev uses AI concepts, which is cool.
+> 4. Privacy matters, you can configure tridev to talk with him offline. You can already text with him without any third party services.
 > 5. Open source is great.
 
 ### What is this repository for?
 
-> This repository contains the following nodes of Leon:
+> This repository contains the following nodes of tridev:
 > - The server
 > - The packages/modules
 > - The web app
 > - The hotword node
 
-### What is Leon able to do?
+### What is tridev able to do?
 
 > Today, the most interesting part is about his core and the way he can scale up. He is pretty young but can easily scale to have new features (packages/modules).
-> You can find what he is able to do by browsing the [packages list](https://github.com/leon-ai/leon/tree/develop/packages).
+> You can find what he is able to do by browsing the [packages list](https://github.com/tridev-ai/tridev/tree/develop/packages).
 
 Sounds good for you? Then let's get started!
 
@@ -75,7 +75,7 @@ Sounds good for you? Then let's get started!
 
 Gitpod will automatically setup an environment and run an instance for you.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/leon-ai/leon)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/tridev-ai/tridev)
 
 ## 🚀 Getting Started
 
@@ -87,17 +87,17 @@ Gitpod will automatically setup an environment and run an instance for you.
 - [Pipenv](https://docs.pipenv.org) >= 2020.11.15
 - Supported OSes: Linux, macOS and Windows
 
-To install these prerequisites, you can follow the [How To section](https://docs.getleon.ai/how-to/) of the documentation.
+To install these prerequisites, you can follow the [How To section](https://docs.gettridev.ai/how-to/) of the documentation.
 
 ### Installation
 
 ```sh
 # Clone the repository (stable branch)
-git clone -b master https://github.com/leon-ai/leon.git leon
-# OR download the latest release at: https://github.com/leon-ai/leon/releases/latest
+git clone -b master https://github.com/tridev-ai/tridev.git tridev
+# OR download the latest release at: https://github.com/tridev-ai/tridev/releases/latest
 
 # Go to the project root
-cd leon
+cd tridev
 
 # Install
 npm install
@@ -116,7 +116,7 @@ npm run build
 npm start
 
 # Go to http://localhost:1337
-# Hooray! Leon is running
+# Hooray! tridev is running
 ```
 
 ### Docker Installation
@@ -129,12 +129,12 @@ npm run docker:build
 npm run docker:run
 
 # Go to http://localhost:1337
-# Hooray! Leon is running
+# Hooray! tridev is running
 ```
 
 ## 📚 Documentation
 
-For full documentation, visit [docs.getleon.ai](https://docs.getleon.ai).
+For full documentation, visit [docs.gettridev.ai](https://docs.gettridev.ai).
 
 ## 📺 Video
 
@@ -142,26 +142,26 @@ For full documentation, visit [docs.getleon.ai](https://docs.getleon.ai).
 
 ## 🧭 Roadmap
 
-To know what is going on, follow [roadmap.getleon.ai](http://roadmap.getleon.ai).
+To know what is going on, follow [roadmap.gettridev.ai](http://roadmap.gettridev.ai).
 
 ## ❤️ Contributing
 
-If you have an idea for improving Leon, do not hesitate.
+If you have an idea for improving tridev, do not hesitate.
 
-**Leon needs open source to live**, the more modules he has, the more skillful he becomes.
+**tridev needs open source to live**, the more modules he has, the more skillful he becomes.
 
-## 📖 The Story Behind Leon
+## 📖 The Story Behind tridev
 
-You'll find a write-up on this [blog post](https://blog.getleon.ai/the-story-behind-leon/).
+You'll find a write-up on this [blog post](https://blog.gettridev.ai/the-story-behind-tridev/).
 
 ## 🔔 Stay Tuned
 
 - [Twitter](https://twitter.com/louistiti_fr)
-- [Newsletter](http://newsletter.getleon.ai)
-- [Blog](https://blog.getleon.ai)
-- [GitHub issues](https://github.com/leon-ai/leon/issues)
+- [Newsletter](http://newsletter.gettridev.ai)
+- [Blog](https://blog.gettridev.ai)
+- [GitHub issues](https://github.com/tridev-ai/tridev/issues)
 - [YouTube](https://www.youtube.com/channel/UCW6mk6j6nQUzFYY97r47emQ)
-- [#LeonAI](https://twitter.com/hashtag/LeonAI)
+- [#tridevAI](https://twitter.com/hashtag/tridevAI)
 
 ## 👨 Author
 
@@ -201,7 +201,7 @@ You'll find a write-up on this [blog post](https://blog.getleon.ai/the-story-beh
         <sub><sup>10 USD / month</sup></sub>
       </td>
       <td align="center" valign="middle" width="128">
-      	<a href="http://sponsor.getleon.ai/">
+      	<a href="http://sponsor.gettridev.ai/">
           You?
         </a>
       </td>
@@ -209,9 +209,9 @@ You'll find a write-up on this [blog post](https://blog.getleon.ai/the-story-beh
   </tbody>
 </table>
 
-You can also contribute by [sponsoring Leon](http://sponsor.getleon.ai).
+You can also contribute by [sponsoring tridev](http://sponsor.gettridev.ai).
 
-Please note that I dedicate most of my free time to Leon.
+Please note that I dedicate most of my free time to tridev.
 
 By sponsoring the project you make the project sustainable and faster to develop features.
 
@@ -219,12 +219,12 @@ The focus is not only limited to the activity you see on GitHub but also a lot o
 
 ### Special Thanks
 
-<a href="https://vercel.com/?utm_source=leon-ai&utm_campaign=oss">
+<a href="https://vercel.com/?utm_source=tridev-ai&utm_campaign=oss">
   <img src="https://i.imgur.com/S5olXWh.png" alt="Vercel" width="128" />
 </a>
 
 ## 📝 License
-[MIT License](https://github.com/leon-ai/leon/blob/develop/LICENSE.md)
+[MIT License](https://github.com/tridev-ai/tridev/blob/develop/LICENSE.md)
 
 Copyright (c) 2019-present, Louis Grenard <louis.grenard@gmail.com>
 

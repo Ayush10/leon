@@ -1,5 +1,5 @@
 /**
- * This file allows to run a separate node to detect the wake word "Leon/Léon"
+ * This file allows to run a separate node to detect the wake word "tridev/Léon"
  * You can consider to run this file on a different hardware
  */
 
@@ -10,9 +10,9 @@ const record = require('node-record-lpcm16')
 const { Detector, Models } = require('snowboy')
 const { io } = require('socket.io-client')
 
-process.env.LEON_HOST = process.env.LEON_HOST || 'http://localhost'
-process.env.LEON_PORT = process.env.LEON_PORT || 1337
-const url = `${process.env.LEON_HOST}:${process.env.LEON_PORT}`
+process.env.tridev_HOST = process.env.tridev_HOST || 'http://localhost'
+process.env.tridev_PORT = process.env.tridev_PORT || 1337
+const url = `${process.env.tridev_HOST}:${process.env.tridev_PORT}`
 const socket = io(url)
 
 socket.on('connect', () => {
@@ -33,9 +33,9 @@ request.get(`${url}/v1/info`)
       const models = new Models()
 
       models.add({
-        file: `${__dirname}/models/leon-${res.body.lang.short}.pmdl`,
+        file: `${__dirname}/models/tridev-${res.body.lang.short}.pmdl`,
         sensitivity: '0.5',
-        hotwords: `leon-${res.body.lang.short}`
+        hotwords: `tridev-${res.body.lang.short}`
       })
 
       const detector = new Detector({

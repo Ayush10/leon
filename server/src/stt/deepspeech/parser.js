@@ -41,7 +41,7 @@ parser.conf = {
  */
 parser.init = (args) => {
   /* istanbul ignore if */
-  if (process.env.LEON_LANG !== 'en-US') {
+  if (process.env.tridev_LANG !== 'en-US') {
     log.warning('The DeepSpeech parser only accepts the "en-US" language for the moment')
   }
 
@@ -60,7 +60,7 @@ parser.init = (args) => {
   }
 
   /* istanbul ignore if */
-  if (process.env.LEON_NODE_ENV !== 'testing') {
+  if (process.env.tridev_NODE_ENV !== 'testing') {
     model = new DeepSpeech.Model(args.model)
     desiredSampleRate = model.sampleRate()
 
@@ -83,7 +83,7 @@ parser.parse = (buffer, cb) => {
   }
 
   /* istanbul ignore if */
-  if (process.env.LEON_NODE_ENV !== 'testing') {
+  if (process.env.tridev_NODE_ENV !== 'testing') {
     const string = model.stt(buffer)
 
     cb({ string })

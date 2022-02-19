@@ -15,17 +15,17 @@ const getInfo = async (fastify, options) => {
       status: 200,
       code: 'info_pulled',
       message,
-      after_speech: process.env.LEON_AFTER_SPEECH === 'true',
-      logger: process.env.LEON_LOGGER === 'true',
+      after_speech: process.env.tridev_AFTER_SPEECH === 'true',
+      logger: process.env.tridev_LOGGER === 'true',
       stt: {
-        enabled: process.env.LEON_STT === 'true',
-        provider: process.env.LEON_STT_PROVIDER
+        enabled: process.env.tridev_STT === 'true',
+        provider: process.env.tridev_STT_PROVIDER
       },
       tts: {
-        enabled: process.env.LEON_TTS === 'true',
-        provider: process.env.LEON_TTS_PROVIDER
+        enabled: process.env.tridev_TTS === 'true',
+        provider: process.env.tridev_TTS_PROVIDER
       },
-      lang: langs[process.env.LEON_LANG],
+      lang: langs[process.env.tridev_LANG],
       version
     })
   })

@@ -199,7 +199,7 @@ small {
 .bubble-container.me {
   text-align: right;
 }
-.bubble-container.leon {
+.bubble-container.tridev {
   text-align: left;
 }
 
@@ -218,7 +218,7 @@ small {
   color: #FFF;
   right: 0;
 }
-#feed .leon .bubble {
+#feed .tridev .bubble {
   background-color: #EEE;
   color: #151718;
 }

@@ -1,20 +1,20 @@
 {
-  "name": "leon",
+  "name": "tridev",
   "version": "1.0.0-beta.6+dev",
-  "description": "Server, packages and web app of the Leon personal assistant",
+  "description": "Server, packages and web app of the tridev personal assistant",
   "author": {
     "name": "Louis Grenard",
     "email": "louis.grenard@gmail.com",
     "url": "https://twitter.com/louistiti_fr"
   },
   "license": "MIT",
-  "homepage": "https://getleon.ai",
+  "homepage": "https://gettridev.ai",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leon-ai/leon.git"
+    "url": "git+https://github.com/tridev-ai/tridev.git"
   },
   "bugs": {
-    "url": "https://github.com/leon-ai/leon/issues"
+    "url": "https://github.com/tridev-ai/tridev/issues"
   },
   "engines": {
     "node": ">=16.0.0",
@@ -23,10 +23,10 @@
   "scripts": {
     "lint": "babel-node scripts/lint.js",
     "test": "npm run test:json && npm run test:unit && npm run test:e2e",
-    "test:unit": "npm run train en && cross-env PIPENV_PIPFILE=bridges/python/Pipfile LEON_NODE_ENV=testing jest --forceExit --silent --projects test/unit/unit.jest.json && npm run train",
+    "test:unit": "npm run train en && cross-env PIPENV_PIPFILE=bridges/python/Pipfile tridev_NODE_ENV=testing jest --forceExit --silent --projects test/unit/unit.jest.json && npm run train",
     "test:e2e": "npm run test:e2e:nlp-modules && npm run test:e2e:modules",
-    "test:e2e:modules": "babel-node scripts/run-clean-test-dbs.js && npm run train en && cross-env PIPENV_PIPFILE=bridges/python/Pipfile LEON_NODE_ENV=testing jest --forceExit --silent --verbose --projects test/e2e/modules/e2e.modules.jest.json && babel-node scripts/run-clean-test-dbs.js && npm run train",
-    "test:e2e:nlp-modules": "npm run train en && cross-env PIPENV_PIPFILE=bridges/python/Pipfile LEON_NODE_ENV=testing jest --forceExit --silent --verbose --setupTestFrameworkScriptFile=./test/paths.setup.js test/e2e/nlp-modules.spec.js && npm run train",
+    "test:e2e:modules": "babel-node scripts/run-clean-test-dbs.js && npm run train en && cross-env PIPENV_PIPFILE=bridges/python/Pipfile tridev_NODE_ENV=testing jest --forceExit --silent --verbose --projects test/e2e/modules/e2e.modules.jest.json && babel-node scripts/run-clean-test-dbs.js && npm run train",
+    "test:e2e:nlp-modules": "npm run train en && cross-env PIPENV_PIPFILE=bridges/python/Pipfile tridev_NODE_ENV=testing jest --forceExit --silent --verbose --setupTestFrameworkScriptFile=./test/paths.setup.js test/e2e/nlp-modules.spec.js && npm run train",
     "test:json": "jest --silent --projects test/json/json.jest.json",
     "test:module": "babel-node scripts/test-module.js",
     "setup:offline": "babel-node scripts/setup-offline/setup-offline.js",
@@ -36,21 +36,21 @@
     "preinstall": "node scripts/setup/preinstall.js",
     "postinstall": "babel-node scripts/setup/setup.js",
     "dev:app": "vite --config app/vite.config.js",
-    "dev:server": "npm run train && cross-env LEON_NODE_ENV=development nodemon --watch server ./server/src/index.js --ignore server/src/tmp/ --exec babel-node",
-    "wake": "cross-env LEON_HOST=http://localhost LEON_PORT=1337 node hotword/index.js",
+    "dev:server": "npm run train && cross-env tridev_NODE_ENV=development nodemon --watch server ./server/src/index.js --ignore server/src/tmp/ --exec babel-node",
+    "wake": "cross-env tridev_HOST=http://localhost tridev_PORT=1337 node hotword/index.js",
     "delete-dist:server": "shx rm -rf ./server/dist",
     "prepare": "husky install",
     "build": "npm run build:app && npm run build:server",
-    "build:app": "cross-env LEON_NODE_ENV=production babel-node scripts/app/run-build-app.js",
+    "build:app": "cross-env tridev_NODE_ENV=production babel-node scripts/app/run-build-app.js",
     "build:server": "npm run delete-dist:server && npm run train && babel ./server/src -d ./server/dist --copy-files && shx mkdir -p server/dist/tmp",
-    "start": "cross-env LEON_NODE_ENV=production node ./server/dist/index.js",
+    "start": "cross-env tridev_NODE_ENV=production node ./server/dist/index.js",
     "train": "babel-node scripts/run-train.js",
     "prepare-release": "babel-node scripts/release/prepare-release.js",
     "check": "babel-node scripts/run-check.js",
-    "docker:build": "docker build -t leonai/leon .",
+    "docker:build": "docker build -t tridevai/tridev .",
     "docker:run": "docker-compose up",
     "docker:dev": "docker-compose --file=docker-compose.dev.yml up",
-    "docker:check": "docker run --rm -it leonai/leon npm run check"
+    "docker:check": "docker run --rm -it tridevai/tridev npm run check"
   },
   "dependencies": {
     "@aws-sdk/client-polly": "^3.18.0",

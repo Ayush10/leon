@@ -20,7 +20,7 @@ import generateChangelog from './generate-changelog'
       await updateVersion(version)
       await generateChangelog(version)
 
-      log.success('Hooray! Leon is ready to be released!')
+      log.success('Hooray! tridev is ready to be released!')
       loader.stop()
     } catch (e) {
       log.error(e)

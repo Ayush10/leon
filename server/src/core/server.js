@@ -34,18 +34,18 @@ class Server {
     this.fastify.addHook('onRequest', otherMidd)
 
     log.title('Initialization')
-    log.success(`The current env is ${process.env.LEON_NODE_ENV}`)
+    log.success(`The current env is ${process.env.tridev_NODE_ENV}`)
     log.success(`The current version is ${version}`)
 
-    if (!Object.keys(langs).includes(process.env.LEON_LANG) === true) {
-      process.env.LEON_LANG = 'en-US'
+    if (!Object.keys(langs).includes(process.env.tridev_LANG) === true) {
+      process.env.tridev_LANG = 'en-US'
       log.warning('The language you chose is not supported, then the default language has been applied')
     }
 
-    log.success(`The current language is ${process.env.LEON_LANG}`)
+    log.success(`The current language is ${process.env.tridev_LANG}`)
     log.success(`The current time zone is ${date.timeZone()}`)
 
-    const sLogger = (process.env.LEON_LOGGER !== 'true') ? 'disabled' : 'enabled'
+    const sLogger = (process.env.tridev_LOGGER !== 'true') ? 'disabled' : 'enabled'
     log.success(`Collaborative logger ${sLogger}`)
 
     await this.bootstrap()
@@ -72,7 +72,7 @@ class Server {
     this.httpServer = this.fastify.server
 
     try {
-      await this.listen(process.env.LEON_PORT)
+      await this.listen(process.env.tridev_PORT)
     } catch (e) {
       log.error(e.message)
     }
@@ -82,14 +82,14 @@ class Server {
    * Launch server
    */
   async listen (port) {
-    const io = process.env.LEON_NODE_ENV === 'development'
-      ? socketio(this.httpServer, { cors: { origin: `${process.env.LEON_HOST}:3000` } })
+    const io = process.env.tridev_NODE_ENV === 'development'
+      ? socketio(this.httpServer, { cors: { origin: `${process.env.tridev_HOST}:3000` } })
       : socketio(this.httpServer)
 
     io.on('connection', this.connection)
 
     await this.fastify.listen(port, '0.0.0.0')
-    log.success(`Server is available at ${process.env.LEON_HOST}:${port}`)
+    log.success(`Server is available at ${process.env.tridev_HOST}:${port}`)
   }
 
   /**
@@ -116,19 +116,19 @@ class Server {
         let sttState = 'disabled'
         let ttsState = 'disabled'
 
-        this.brain = new Brain(socket, langs[process.env.LEON_LANG].short)
+        this.brain = new Brain(socket, langs[process.env.tridev_LANG].short)
         this.nlu = new Nlu(this.brain)
         this.asr = new Asr()
 
         /* istanbul ignore if */
-        if (process.env.LEON_STT === 'true') {
+        if (process.env.tridev_STT === 'true') {
           sttState = 'enabled'
 
-          this.stt = new Stt(socket, process.env.LEON_STT_PROVIDER)
+          this.stt = new Stt(socket, process.env.tridev_STT_PROVIDER)
           this.stt.init()
         }
 
-        if (process.env.LEON_TTS === 'true') {
+        if (process.env.tridev_TTS === 'true') {
           ttsState = 'enabled'
         }
 
@@ -138,7 +138,7 @@ class Server {
 
         // Train modules expressions
         try {
-          await this.nlu.loadModel(join(__dirname, '../data/leon-model.nlp'))
+          await this.nlu.loadModel(join(__dirname, '../data/tridev-model.nlp'))
         } catch (e) {
           log[e.type](e.obj.message)
         }

@@ -18,10 +18,10 @@ describe('server', () => {
       const server = new Server()
 
       server.bootstrap = jest.fn() // Need to mock bootstrap method to not continue the init
-      process.env.LEON_LANG = 'fake-lang'
+      process.env.tridev_LANG = 'fake-lang'
 
       await server.init()
-      expect(process.env.LEON_LANG).toBe('en-US')
+      expect(process.env.tridev_LANG).toBe('en-US')
     })
   })
 
@@ -47,7 +47,7 @@ describe('server', () => {
       const server = new Server()
       await server.init()
 
-      fakeServer.listen(process.env.LEON_PORT)
+      fakeServer.listen(process.env.tridev_PORT)
       await server.httpServer.close()
     })
 
@@ -55,8 +55,8 @@ describe('server', () => {
       const server = new Server()
       console.log = jest.fn()
 
-      await server.listen(process.env.LEON_PORT)
-      expect(console.log.mock.calls[0][1].indexOf(process.env.LEON_PORT)).not.toBe(-1)
+      await server.listen(process.env.tridev_PORT)
+      expect(console.log.mock.calls[0][1].indexOf(process.env.tridev_PORT)).not.toBe(-1)
     })
   })
 

@@ -13,14 +13,14 @@ import setupPythonPackages from './setup-python-packages'
 // Do not load ".env" file because it is not created yet
 
 /**
- * Main entry to setup Leon
+ * Main entry to setup tridev
  */
 (async () => {
   try {
     const info = os.get()
 
     // Required env vars to setup
-    process.env.LEON_LANG = 'en-US'
+    process.env.tridev_LANG = 'en-US'
     process.env.PIPENV_PIPFILE = 'bridges/python/Pipfile'
     process.env.PIPENV_VENV_IN_PROJECT = 'true'
 
@@ -40,7 +40,7 @@ import setupPythonPackages from './setup-python-packages'
     }
 
     log.default('')
-    log.success('Hooray! Leon is installed and ready to go!')
+    log.success('Hooray! tridev is installed and ready to go!')
     loader.stop()
   } catch (e) {
     log.error(e)

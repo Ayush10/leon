@@ -12,7 +12,7 @@ RUN apk add --no-cache --no-progress \
 # Upgrade pip and install Pipenv
 RUN pip3 install --no-cache-dir --progress-bar off pipenv
 
-# Install Leon
+# Install tridev
 COPY ./ ./
 RUN npm install
 RUN npm run build

@@ -70,7 +70,7 @@ class Nlu {
       return false
     }
 
-    const lang = langs[process.env.LEON_LANG].short
+    const lang = langs[process.env.tridev_LANG].short
     const result = await this.nlp.process(lang, query)
 
     const {
@@ -89,10 +89,10 @@ class Nlu {
     }
 
     /* istanbul ignore next */
-    if (process.env.LEON_LOGGER === 'true' && process.env.LEON_NODE_ENV !== 'testing') {
+    if (process.env.tridev_LOGGER === 'true' && process.env.tridev_NODE_ENV !== 'testing') {
       this.request
-        .post('https://logger.getleon.ai/v1/expressions')
-        .set('X-Origin', 'leon-core')
+        .post('https://logger.gettridev.ai/v1/expressions')
+        .set('X-Origin', 'tridev-core')
         .send({
           version,
           query,
@@ -104,7 +104,7 @@ class Nlu {
     }
 
     if (intent === 'None') {
-      const fallback = Nlu.fallback(obj, langs[process.env.LEON_LANG].fallbacks)
+      const fallback = Nlu.fallback(obj, langs[process.env.tridev_LANG].fallbacks)
 
       if (fallback === false) {
         this.brain.talk(`${this.brain.wernicke('random_unknown_queries')}.`, true)

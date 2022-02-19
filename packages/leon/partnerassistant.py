@@ -4,7 +4,7 @@
 import utils
 
 def run(string, entities):
-	"""Leon tells you about other personal assistants"""
+	"""tridev tells you about other personal assistants"""
 
 	string = string.lower()
 

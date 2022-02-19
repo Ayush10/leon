@@ -12,29 +12,29 @@ export default class Chatbot {
     await this.loadFeed()
     this.scrollDown()
 
-    this.et.addEventListener('to-leon', (event) => {
+    this.et.addEventListener('to-tridev', (event) => {
       this.createBubble('me', event.detail)
     })
 
     this.et.addEventListener('me-received', (event) => {
-      this.createBubble('leon', event.detail)
+      this.createBubble('tridev', event.detail)
     })
   }
 
   sendTo (who, string) {
-    if (who === 'leon') {
-      this.et.dispatchEvent(new CustomEvent('to-leon', { detail: string }))
+    if (who === 'tridev') {
+      this.et.dispatchEvent(new CustomEvent('to-tridev', { detail: string }))
     }
   }
 
   receivedFrom (who, string) {
-    if (who === 'leon') {
+    if (who === 'tridev') {
       this.et.dispatchEvent(new CustomEvent('me-received', { detail: string }))
     }
   }
 
   isTyping (who, value) {
-    if (who === 'leon') {
+    if (who === 'tridev') {
       if (value) {
         this.enableTyping()
       } else if (value === false) {

@@ -1,7 +1,7 @@
 {
-  "name": "leon-hotword",
+  "name": "tridev-hotword",
   "version": "0.2.0",
-  "description": "Hotword detection for Leon",
+  "description": "Hotword detection for tridev",
   "author": {
     "name": "Louis Grenard",
     "email": "louis.grenard@gmail.com",
@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "node-record-lpcm16": "^0.3.0",
-    "snowboy": "git+https://github.com/leon-ai/snowboy.git",
+    "snowboy": "git+https://github.com/tridev-ai/snowboy.git",
     "socket.io-client": "^4.0.0",
     "superagent": "^3.5.2"
   }

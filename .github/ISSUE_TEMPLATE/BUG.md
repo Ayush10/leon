@@ -5,18 +5,18 @@ labels: bug
 ---
 
 <!--
-Thanks for your interest in Leon! ❤️
+Thanks for your interest in tridev! ❤️
 Please check if there is no similar issue before creating this one.
 -->
 
 ### Specs
 
-- Leon version:
+- tridev version:
 - OS (or browser) version:
 - Node.js version:
 - Complete "npm run check" output:
 - (if using Docker) Complete "npm run docker:check" output:
-- (optional) Leon package version:
+- (optional) tridev package version:
 
 ### Expected Behavior
 

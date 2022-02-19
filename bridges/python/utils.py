@@ -76,7 +76,7 @@ def output(type, code, speech = ''):
 		stdout.flush()
 
 def http(method, url, headers = None):
-	"""Send HTTP request with the Leon user agent"""
+	"""Send HTTP request with the tridev user agent"""
 
 	session = requests.Session()
 	session.headers.update({ 'User-Agent': useragent, 'Cache-Control': 'no-cache' })
@@ -110,6 +110,6 @@ def db(dbtype = 'tinydb'):
 	for a specific package"""
 
 	if dbtype == 'tinydb':
-		ext = '.json' if environ.get('LEON_NODE_ENV') != 'testing' else '.spec.json'
+		ext = '.json' if environ.get('tridev_NODE_ENV') != 'testing' else '.spec.json'
 		db = TinyDB(dirname + '/../../packages/' + queryobj['package'] + '/data/db/' + queryobj['package'] + ext)
 		return { 'db': db, 'query': Query, 'operations': operations }

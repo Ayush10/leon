@@ -31,12 +31,12 @@ describe('NER', () => {
 
       const entities = await ner.extractEntities(
         'en',
-        path.join(__dirname, '../../../../packages/leon/data/expressions/en.json'),
+        path.join(__dirname, '../../../../packages/tridev/data/expressions/en.json'),
         {
           query: 'Give me a random number',
           entities: [],
           classification: {
-            package: 'leon',
+            package: 'tridev',
             module: 'randomnumber',
             action: 'run',
             confidence: 1

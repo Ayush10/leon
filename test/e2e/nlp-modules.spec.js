@@ -6,7 +6,7 @@ import Nlu from '@/core/nlu'
 import Brain from '@/core/brain'
 
 /**
- * This test will test the Leon's NLP (Natural Language Processing):
+ * This test will test the tridev's NLP (Natural Language Processing):
  * 1. Browse every expression for each module
  * 2. Check if it matches its respective module
  *
@@ -33,7 +33,7 @@ describe('NLU modules', () => {
       brain.talk = jest.fn()
 
       beforeAll(async () => {
-        process.env.LEON_LANG = langKeys[i]
+        process.env.tridev_LANG = langKeys[i]
 
         // Generate new NLP model for the tested language
         await command(`npm run train ${lang.short}`, { shell: true })

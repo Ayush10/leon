@@ -1,12 +1,12 @@
-# Leon Package
+# tridev Package
 
-The Leon package contains modules related to Leon himself.
+The tridev package contains modules related to tridev himself.
 
 ## Modules
 
 ### Bye
 
-Leon says good bye.
+tridev says good bye.
 
 #### Usage
 
@@ -19,7 +19,7 @@ Leon says good bye.
 
 ### Greeting
 
-Leon greets you.
+tridev greets you.
 
 #### Usage
 
@@ -32,7 +32,7 @@ Leon greets you.
 
 ### Joke
 
-Leon says some jokes.
+tridev says some jokes.
 
 #### Usage
 
@@ -45,7 +45,7 @@ Leon says some jokes.
 
 ### Meaning of Life
 
-Leon says what's the meaning of life.
+tridev says what's the meaning of life.
 
 #### Usage
 
@@ -58,7 +58,7 @@ Leon says what's the meaning of life.
 
 ### Partner Assistant
 
-Leon tells you about other personal assistants.
+tridev tells you about other personal assistants.
 
 #### Usage
 
@@ -71,7 +71,7 @@ Leon tells you about other personal assistants.
 
 ### Random Number
 
-Leon gives a random number.
+tridev gives a random number.
 
 #### Usage
 
@@ -84,7 +84,7 @@ Leon gives a random number.
 
 ### Welcome
 
-Leon welcomes you.
+tridev welcomes you.
 
 #### Usage
 
@@ -97,7 +97,7 @@ Leon welcomes you.
 
 ### Who Am I
 
-Leon introduces himself.
+tridev introduces himself.
 
 #### Usage
 

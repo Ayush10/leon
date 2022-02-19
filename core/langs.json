@@ -12,7 +12,7 @@
       "fallbacks": [
         {
           "words": ["merci"],
-          "package": "leon",
+          "package": "tridev",
           "module": "welcome",
           "action": "run"
         }
