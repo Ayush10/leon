@@ -153,4 +153,4 @@ The focus is not only limited to the activity you see on GitHub but also a lot o
 
 ## Spread the Word
 
-Use [#tridevAI](https://twitter.com/hashtag/tridevAI) if you tweet about tridev and/or mention [@louistiti_fr](https://twitter.com/louistiti_fr).
+Use [#tridevAI](https://twitter.com/hashtag/tridevAI) if you tweet about tridev and/or mention [@Ayushtiti_fr](https://twitter.com/Ayushtiti_fr).

@@ -3,9 +3,9 @@
   "version": "1.0.0-beta.6+dev",
   "description": "Server, packages and web app of the tridev personal assistant",
   "author": {
-    "name": "Louis Grenard",
-    "email": "louis.grenard@gmail.com",
-    "url": "https://twitter.com/louistiti_fr"
+    "name": "Ayush Grenard",
+    "email": "Ayush.grenard@gmail.com",
+    "url": "https://twitter.com/Ayushtiti_fr"
   },
   "license": "MIT",
   "homepage": "https://gettridev.ai",

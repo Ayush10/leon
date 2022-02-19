@@ -3,9 +3,9 @@
   "version": "0.2.0",
   "description": "Hotword detection for tridev",
   "author": {
-    "name": "Louis Grenard",
-    "email": "louis.grenard@gmail.com",
-    "url": "https://twitter.com/louistiti_fr"
+    "name": "Ayush Grenard",
+    "email": "Ayush.grenard@gmail.com",
+    "url": "https://twitter.com/Ayushtiti_fr"
   },
   "main": "index.js",
   "scripts": {

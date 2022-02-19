@@ -18,7 +18,7 @@
   <a href="https://github.com/tridev-ai/tridev/actions/workflows/lint.yml"><img src="https://github.com/tridev-ai/tridev/actions/workflows/lint.yml/badge.svg?branch=develop" /></a>
   <br>
   <a href="https://discord.gg/MNQqqKg"><img src="https://svgshare.com/i/V09.svg"/></a>
-  <a href="https://twitter.com/louistiti_fr"><img src="https://img.shields.io/twitter/follow/louistiti_fr?label=Follow&style=social" /></a>
+  <a href="https://twitter.com/Ayushtiti_fr"><img src="https://img.shields.io/twitter/follow/Ayushtiti_fr?label=Follow&style=social" /></a>
 </p>
 
 <p align="center">
@@ -156,7 +156,7 @@ You'll find a write-up on this [blog post](https://blog.gettridev.ai/the-story-b
 
 ## 🔔 Stay Tuned
 
-- [Twitter](https://twitter.com/louistiti_fr)
+- [Twitter](https://twitter.com/Ayushtiti_fr)
 - [Newsletter](http://newsletter.gettridev.ai)
 - [Blog](https://blog.gettridev.ai)
 - [GitHub issues](https://github.com/tridev-ai/tridev/issues)
@@ -165,7 +165,7 @@ You'll find a write-up on this [blog post](https://blog.gettridev.ai/the-story-b
 
 ## 👨 Author
 
-**Louis Grenard** ([@louistiti_fr](https://twitter.com/louistiti_fr))
+**Ayush Grenard** ([@Ayushtiti_fr](https://twitter.com/Ayushtiti_fr))
 
 ## 👍 Sponsors
 
@@ -226,7 +226,7 @@ The focus is not only limited to the activity you see on GitHub but also a lot o
 ## 📝 License
 [MIT License](https://github.com/tridev-ai/tridev/blob/develop/LICENSE.md)
 
-Copyright (c) 2019-present, Louis Grenard <louis.grenard@gmail.com>
+Copyright (c) 2019-present, Ayush Grenard <Ayush.grenard@gmail.com>
 
 ## Cheers!
 ![Cheers!](https://github.githubassets.com/images/icons/emoji/unicode/1f379.png "Cheers!")
